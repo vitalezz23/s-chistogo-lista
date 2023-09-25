@@ -61,12 +61,21 @@ body {
 }
 
 .cover {
+    height: 221px;
     background-color: #131313;
-    background-size: 339px 198px;
-    background-image: url('../images/cover1.svg');
+    background-size: 95% auto; 
+    background-image: url('../images/cover.svg');
     background-repeat: no-repeat;
-    background-position: 21px 23px;
+    background-position: right;
     flex-shrink: 0;
+}
+
+.cover-title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 24px;
 }
      
 .accent-span {
@@ -79,31 +88,30 @@ body {
 .text-left {
     width: 52px;
     text-align: left;
-    padding-top: 7px;
-    padding-left: 20px;
     display: block;
     line-height: 100%;
 }
 
 .text-center {
-    padding-left: 67px;
-    padding-right: 67px;
     display: block;
     text-align: center;
     line-height: 100%;
 }
 
 .text-right {
-    padding-right: 24px; 
     display: block;
     text-align: right;
     line-height: 100%;
 }
 
 .intro {
-    padding-top: 30px;
-    padding-bottom: 37px;
-}
+    display: inline-flex;
+    height: 453px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+}    
 
 .intro__heading {
     display: flex;
@@ -115,23 +123,32 @@ body {
 .intro__title {
     width: 203px;
     flex-shrink: 0;
-    color: #CCC;
-    font-family: Inter, sans-serif;
+    font-family: Inter;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 120%;
-    padding-bottom: 24px;
+    line-height: 120%
 }
     
 .intro__date {
-    line-height: 120%;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;;
 }
 
 .intro__main-text {
     display: flex;
-    width: 320px;
     flex-direction: column;
-    gap: 24px; 
+    gap: 24px;
+    width: 320px;
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
 }
      
 .reasons {
@@ -154,10 +171,10 @@ body {
     line-height: 115%;
 }
 
-.accent-span-text-right {
-    display: block;  
+/* .text-right {
     text-align: right;
-}    
+    display: block;  
+}     */
 
 .content-section__introduction {
     width: 320px;
