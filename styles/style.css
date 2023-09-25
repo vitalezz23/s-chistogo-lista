@@ -63,11 +63,11 @@ body {
 .cover {
     height: 256px;
     background-color: #131313;
-    background-size: 95%;  
     background-image: url('../images/cover.svg');
     background-repeat: no-repeat;
     background-position: right;
     flex-shrink: 0;
+    background-size: 95% auto;
 }
 
 .cover-title {
