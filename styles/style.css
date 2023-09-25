@@ -128,10 +128,10 @@ body {
 }
 
 .intro__main-text {
-    gap: 24px; 
-    width: 320px;
     display: flex;
     flex-direction: column; 
+    gap: 24px; 
+    width: 320px;
 }
      
 .reasons {
@@ -155,8 +155,8 @@ body {
 }
 
 .subtitle__accent-span {
-    text-align: right;
     display: block;  
+    text-align: right;
 }    
 
 .content-section__introduction {
