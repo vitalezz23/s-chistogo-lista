@@ -61,9 +61,9 @@ body {
 }
 
 .cover {
-    height: 221px;
+    height: 260px; 
     background-color: #131313;
-    background-size: 95% auto; 
+    background-size: 95% auto;  
     background-image: url('../images/cover.svg');
     background-repeat: no-repeat;
     background-position: right;
@@ -105,6 +105,7 @@ body {
 }
 
 .intro {
+    padding-top: 30px;
     display: inline-flex;
     height: 453px;
     flex-direction: column;
