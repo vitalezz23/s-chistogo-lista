@@ -94,7 +94,7 @@ body {
 }
 
 .text-right {
-    padding-right: 24px;
+    padding-right: 24px; 
     display: block;
     text-align: right;
     line-height: 100%;
@@ -130,7 +130,7 @@ body {
 .intro__main-text {
     display: flex;
     width: 320px;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 24px; 
 }
      
@@ -154,7 +154,7 @@ body {
     line-height: 115%;
 }
 
-.subtitle__accent-span {
+.accent-span-text-right {
     display: block;  
     text-align: right;
 }    

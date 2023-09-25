@@ -11,17 +11,17 @@
     font-family: 'EB Garamond';
     src: 
     url(ebgaramondregular.ttf) format('truetype'),
-    url(ebgaramondregular.woff) format('woff'),
-    url(ebgaramondregular.woff2) format('woff2'); 
+    url(ebgaramondregular.woff2) format('woff2'), 
+    url(ebgaramondregular.woff) format('woff');
     font-weight: 400;
 }             
        
 @font-face {
     font-family: 'Inter';
     src: 
+    url(interregular.woff2) format('woff2'), 
     url(interregular.ttf) format('truetype'),
-    url(interregular.woff) format('woff'),
-    url(interregular.woff2) format('woff2'); 
+    url(interregular.woff) format('woff');
     font-weight: 400;
 }     
 
@@ -29,8 +29,8 @@
     font-family: 'InterBold';
     src: 
     url(interbold.ttf) format('truetype'),
-    url(interbold.woff) format('woff'),
-    url(interbold.woff2) format('woff2'); 
+    url(interbold.woff2) format('woff2'), 
+    url(interbold.woff) format('woff');
     font-weight: bold;
 }     
 
