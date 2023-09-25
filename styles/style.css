@@ -129,9 +129,9 @@ body {
 
 .intro__main-text {
     display: flex;
+    width: 320px;
     flex-direction: column; 
     gap: 24px; 
-    width: 320px;
 }
      
 .reasons {
